@@ -1,0 +1,154 @@
+@media (max-width: 992px) {
+    .episodes-card {
+        flex-direction: column;
+    }
+
+    .episode-card-title {
+        font-size: 40px;
+        line-height: 58px;
+    }
+
+    .title {
+        font-size: 150px;
+        line-height: 198px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .person-container{
+        flex-direction: column;
+        width: 1024px;
+    }
+
+    .person-images {
+        width: 100%;
+    }
+
+    .person-title {
+        font-size: 153px;
+        line-height: 166px;
+    }
+
+    .person-content {
+        width: 100%;
+        padding-left: 60px;
+        padding-bottom: 0px;
+    }
+
+    .person-listen-caption{
+        display: block;
+        margin-bottom: 49px;
+        font-size: 70px;
+        line-height: 77px;
+    }
+
+    .social-link {
+        display: block;
+        width: 130px;
+        height: 136px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+/*episodes*/
+    .episodes-top {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        width: 1026px;
+    }
+
+    .episodes-top .title {
+        margin: 0;
+    }
+
+    .footer {
+        padding: 210px 0;
+        padding-left: 500px;
+    }    
+}
+
+@media (max-width: 576px) {
+    .logo{
+        width: 390px;
+    }
+    
+    .logo > img{
+        width: 100%;
+    }
+    
+    .nav {
+        display: none; 
+      }
+    
+      .burger {
+        display: block;
+        width: 100px;
+        height: 50px;
+    }
+
+      .header{
+        padding: 40px;
+        width: 970px;
+    }
+
+    .container-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 115px;
+    }
+
+    /*episodes*/
+
+    .btn {
+        padding: 32px;
+        font-size: 40px;
+    }
+
+    .episodes-card {
+        padding: 20px;
+        width: 1008px;
+    }
+    
+    .episodes-card-image {
+        width: auto;
+        margin-right: 50px;
+    }
+
+    .episodes-card-category {
+        margin-bottom: 130px;
+        padding: 0 60px;
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .episodes-card-number {
+        margin-bottom: 70px;
+        font-size: 75px;
+        line-height: 60px;
+    }
+
+    .episodes-card-title {
+        margin: 0;
+        margin-bottom: 70px;
+        font-weight: 400;
+        font-size: 127px;
+        line-height: 133px;
+        letter-spacing: 8.56px;
+    }
+
+    .episodes-card-descr {
+        margin: 0;
+        margin-bottom: 73px;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
